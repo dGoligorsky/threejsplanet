@@ -134,6 +134,7 @@ const animate = function() {
 
     earth.rotateY(0.01)
     // line.rotateY(0.01)
+    stars.rotateY(0.0005)
 
     ring1.geometry.rotateY(0.004)
     ring2.geometry.rotateY(-0.002)
@@ -181,6 +182,7 @@ document.addEventListener("mousemove", function(event) {
         // startX = event.pageX
         // startY = event.pageY
     // }
+
     aimX = ((window.innerWidth / 2) - event.pageX) * 4
     aimY = ((window.innerHeight / 2) - event.pageY) * 4 
 })
