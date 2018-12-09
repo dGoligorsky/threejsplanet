@@ -8,7 +8,7 @@ body {
 
 /* prevent inertial scroll on mobile */
 html, body {
-    /* position: fixed; */
+    position: fixed;
 }
 
 /* section {
